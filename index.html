@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Css site</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="styleul">
+            <li class="styleli active"><a class="stlea" href="#home">Home</a> </li>
+            <li class="styleli"><a class="stlea" href="#about">About us</a> </li>
+            <li class="styleli"><a class="stlea" href="#gallery">Gallery</a> </li>
+            <li class="styleli"><a class="stlea" href="#contact">Contact</a> </li>
+        </ul>
+    </nav>
+</header>
+<br><br>
+<div id="home" class="stylediv" align="center">
+<p class="stylep" align="center"><h2 class="styleh">Welcome to my website</h2> </p>
+</div>
+<br><br><br><br><br><br>
+<div id="about">
+    <h4 class="stylez" align="left">About us</h4>
+    <p class="styles"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, blanditiis commodi consequatur cupiditate distinctio earum eos inventore iste magni maiores molestiae pariatur quas quia ratione recusandae voluptas! Dignissimos, veniam!</p>
+</div>
+<br><br><br><br><br><br>
+<div id="gallery" class="stylegallery">
+    <h4 align="center">My gallery</h4>
+
+    <img class="styleimg" src="mbisha/pic.jpg" width="200" height="200" alt="sorry fam">
+    <img src="mbisha/pic.jpg" width="200" height="200" alt="sorry fam">
+    <img src="mbisham/pic.jpg" width="200" height="200" alt="sorry fam">
+</div>
+<br><br><br><br><br><br>
+<div id="contact">
+    <h4 align="left"> Contact us</h4>
+    <form action="#">
+      <label>Enter your name</label>
+        <input type="text" name="yourname" placeholder="Enter your full name">
+        <br><br>
+        <label>Enter your Email address</label>
+        <input type="text" name="youremailadress" placeholder="Enter your email adress">
+        <br><br>
+        <label for="county">Enter your county</label>
+        <select name="county" id="county">
+            <option value="nairobi">Nairobi</option>
+            <option value="Kiambu">Kiambu</option>
+            <option value="Narok">Narok</option>
+        </select>
+        <div>
+        <label>Any other details:</label>
+        <textarea id="more" name="more" placeholder="Any other details ..."></textarea>
+</div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>
